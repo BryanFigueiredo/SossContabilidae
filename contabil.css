@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    background-color: black;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 20px;
+    margin-left: 40px;
+}
+
+.itens-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    padding: 0;
+}
+
+.link {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.link:hover {
+    transition: 0.3s;
+    color: green;
+}
+
+.fiscal {
+    width: 80%;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+/* Title Styles */
+.destaque_1 {
+    font-size: 34px;
+    color: rgb(58, 160, 18);
+    /* Verde */
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.destaque_sub {
+    font-size: 29px;
+    color: rgb(25, 25, 173);
+    /* Azul */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.sub {
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Paragraph Styles */
+.emissao_nota p {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Container and Border Styles */
+.emissao_nota {
+    border-radius: 8px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.332);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .destaque_1 {
+        font-size: 24px;
+    }
+
+    .destaque_sub,
+    .sub {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+.imposto{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.imposto h3{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.imposto h3 strong{
+    color: rgb(25, 25, 173);
+}
+
+.conteudo_imposto {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide o espaço em duas colunas */
+    align-items: center;
+}
+
+.conteudo_imposto p {
+    text-align: left; /* Alinha o texto à esquerda */
+    font-size: 22px;
+}
+
+.conteudo_imposto p strong{
+    color: rgb(25, 25, 173);
+}
+
+.conteudo_imposto img {
+    width: 100%;
+    max-width: 400px; /* Define um tamanho máximo para a imagem */
+    border-radius: 10px; /* Adiciona bordas arredondadas à imagem */
+    margin-left: 250px;
+}
+
+.contabil{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contabil h3{
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.contabil_strong{
+    color: rgb(58, 160, 18);
+}
+
+
+.contabil p{
+   font-size: 22px;
+   text-align: center;
+}
+
+.contabil img{
+    margin-top: 15px;
+    width: 450px;
+    height: 400px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-footer {
+    display: flex;
+    width: 100%;
+}
+
+.itens {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-footer img {
+    width: 200px;
+    height: 200px;
+    margin: 10px 20px;
+    margin-left: 40px;
+}
+
+.itens-nav-footer {
+    list-style: none;
+    margin-top: 25px;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.link-footer:hover {
+    transition: 0.3s;
+    color: green;
+}
+
+#destaque {
+    background-color: rgb(25, 25, 173);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.destaque {
+    background-color: rgb(25, 25, 173);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.contato {
+    margin-top: 25px;
+}
+
+.contato p {
+    font-size: 17px;
+}
